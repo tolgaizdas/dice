@@ -1,6 +1,5 @@
 let random1, random2;
 
-
 function printWinner() {
   if (random1 > random2) {
     document.querySelector("h1.main-heading").innerHTML = "<i class='fas fa-flag winner-icon'></i>" + " Player 1 Wins!";
